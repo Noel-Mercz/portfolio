@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJEKT02 - Rezgőkör</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .row:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .col-s-1 {
+                width: 8.33%;
+            }
+
+            .col-s-2 {
+                width: 16.66%;
+            }
+
+            .col-s-3 {
+                width: 25%;
+            }
+
+            .col-s-4 {
+                width: 33.33%;
+            }
+
+            .col-s-5 {
+                width: 41.66%;
+            }
+
+            .col-s-6 {
+                width: 50%;
+            }
+
+            .col-s-7 {
+                width: 58.33%;
+            }
+
+            .col-s-8 {
+                width: 66.66%;
+            }
+
+            .col-s-9 {
+                width: 75%;
+            }
+
+            .col-s-10 {
+                width: 83.33%;
+            }
+
+            .col-s-11 {
+                width: 91.66%;
+            }
+
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+
+        .header {
+            background-color: #4729ab;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #5016ad;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        .menu li:hover {
+            background-color: #e6dbff;
+            color: #5016ad;
+        }
+
+        .menu .active li {
+            background-color: #e6dbff;
+            color: #5016ad;
+        }
+
+        .menu a {
+            text-decoration: none;
+        }
+
+        .aside {
+            background-color: #4e33e5;
+            padding: 15px;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        .footer {
+            background-color: #0063cc;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Portfólió</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <p>11. évfolyam</p>
+            <ul>
+                <a href="../web/alap.html">
+                    <li>Projekt 01: Astabil multivibrátor</li>
+                </a>
+                <a class="active" href="../web/rezgokor.html">
+                    <li>Projekt 02: Rezgőkör</li>
+                </a>
+                <a href="#link ide">
+                    <li>Projekt 03</li>
+                </a>
+                <a href="#link ide">
+                    <li>Projekt 04</li>
+                </a>
+            </ul>
+            <p>12. évfolyam</p>
+            <ul>
+                <a href="">
+                    <li>Projekt 01</li>
+                </a>
+                <a href="">
+                    <li>Projekt 02</li>
+                </a>
+                <a href="">
+                    <li>Projekt 03</li>
+                </a>
+            </ul>
+            <p>13. évfolyam</p>
+            <ul>
+                <a href="">
+                    <li>Projekt 01</li>
+                </a>
+                <a href="">
+                    <li>Projekt 02</li>
+                </a>
+                <a href="">
+                    <li>Projekt 03</li>
+                </a>
+            </ul>
+            <p>----------------</p>
+            <ul>
+                <a href="rezgokor.html">
+                    <li>VISSZA</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>Rezgőkör</h1>
+            <p>A rezgőkör (RLC áramkör) passzív elemekből álló elektromos áramkör, amely külső energia hatására rezgésnek (Oszcillálásnak) indul.</p>
+            <p>Megkülönböztetnek soros és párhuzamos rezgőköröket aszerint  hogy bennük a tekercs és a kondenzátor soros illetve párhuzamos kapcsolásban áll-e.</p>
+            <p>Az eszköz oszcilláló működése azon alapul, hogy a benne található tekercs és kondenzátor egymással periodikusan energiát cserél, míg az áramkörbe helyezett ellenállás csillapító jellegű, disszipatív hatást fejt ki.</p>
+
+            <h2>Műszaki adatok:</h2>
+            
+
+
+            <ul>
+                <li>10V tápellátás</li>
+                <li>Kék led</li>
+                <li>BC639 tranzisztor</li>
+                <li>15 Kohm ellenállás</li>
+                <li>BAT46 dióda</li>
+                <li>2x 470 pF kondenzátor</li>
+                <li>2x 4,7 nF kondenzátor</li>
+                <li>2x 470 nF kondenzátor</li>
+            </ul>
+
+            <p>Az összeszereléshez szükséges még:</p>
+            <ul>
+                <li>oldalcsípő fogó,</li>
+                <li>ón,</li>
+                <li>forrasztópáka, vezeték.</li>
+
+            </ul>
+
+        <h2>Kapcsolási rajz:</h2>
+        <img src="../img/Oszcillátor képek/Képernyőfotó 2023-02-22 - 20.03.37.png" alt="kapcsolási rajz">
+
+            <h2>A rezgőkör kész állapotban:</h2>
+            <p>"Adó oldal"</p>
+            <img style="height: 500px; width: 500px;" src="../img/Oszcillátor képek/41FAA1F9-61D9-4FB1-85DF-976E674C4FE1_1_105_c.jpeg" alt="kész">
+            <p>"Vevő oldal"</p>
+            <img style="height: 500px; width: 500px;" src="../img/Oszcillátor képek/4FE80D4F-64B8-4F4F-8AB6-E0E9BBFD8704_1_105_c.jpeg" alt="kész">        
+
+
+            <h2>Összegzés, tapasztalatok:</h2>
+            <p>Először fogalmam sem volt, hogy hogyan kellene nekikezdeni a feladatnak. Ezért próbáltam elemezni a kapcsolási rajzot.</p>
+            <p>Miután úgy gondoltam, hogy kellően értelmeztem a kapcsolást, minden részét áttanulmányoztam, nekiláttam a feladatnak, elkezdtem az alkatrészekeket egymásba forrasztani kellően magabiztosan. Ez nem is telt sok időbe, nagyjából harminc-negyven perc lehetett és már teljesen fel volt építve az áramkör.</p>
+            <p>Ahogy készen lettem vele, eljött a teszt fázis, megadtuk neki a +10V tápellátást és a már tanárúr által előre megépített "Vevő" oldalhoz odaraktam és hát nem működött.</p>
+            <p>Ezt követően eljött a nap azon része, amikor három órát ültem felette, hogy rájöjjek hogy mit rontottam el az áramkörbe, ugyanis segítséget nem kaptam és magamtól pedig nemigazán láttam a bajt.</p>
+            <p>Ahogy eljött a harmadik óra, úgy voltam vele hogy teljesen szétszedem az eddig megépített áramkört és csinálok egy teljesen másikat, jobban odafigyelve, hogy az már tényleg működjön is. Ennek neki is láttam és nagyjából tizenöt perc alatt össze is raktam. Ekkor újra eljött a teszfázis, szóval ráadtunk +10V tápellátást, hoztam az előre megépített "Vevő" oldalt és mint kiderült, (igaz másodjára) de hibátlanul működik. Ennek rettentően örültem és éreztem hogy nem volt hiába az a sok "szenvedés".</p>
+            <p>Így nem volt más hátra, minthogy megépíteni a "Vevő" oldalt. Nekiláttam, nagyjából 10 perc alatt össze is raktam. Az "Adó" oldalra újra rádugtuk a tápellátást és leteszteltem hogy a "Vevő" oldalamat sikerült e jól összerakni, megépíteni. Itt is örülhettem, ugyanis hibátlanul működött minden.</p>
+            <p>Ezzel a napot befejezettnek tekintettem, örültem hogy megtudtam csinálni.</p>
+
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>Mire találták fel a Rezgő köröket?</h2>
+                <p>Hogy egyenáramú energiát felhasználva stabil, periodikus elektromágneses rezgést hozzon létre és tartson fent.</p>
+                <h2>Hol használnak rezgőköröket?</h2>
+                <p>Számológép, rádió, mobiltelefon, kvarcóra.</p>
+                <h2>Milyen fajtái vannak?</h2>
+                <p>Szinuszos oszcillátor (Harmónikus)</p>
+                <p>Nemharmónikus oszcillátor (relaxációs)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Készítette: Mercz Noel</p>
+        <p>A projekt megvalósult: 2023.02.10.</p>
+        <p>Helyszín: Miskolci Szakképzési Centrum Kandó Kálmán Informatikai Technikum (Villamos 3 labor).</p>
+
+    </div>
+
+</body>
+
+</html>

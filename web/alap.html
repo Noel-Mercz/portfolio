@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJEKT01 -  Astabil multivibrátor</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .row:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .col-s-1 {
+                width: 8.33%;
+            }
+
+            .col-s-2 {
+                width: 16.66%;
+            }
+
+            .col-s-3 {
+                width: 25%;
+            }
+
+            .col-s-4 {
+                width: 33.33%;
+            }
+
+            .col-s-5 {
+                width: 41.66%;
+            }
+
+            .col-s-6 {
+                width: 50%;
+            }
+
+            .col-s-7 {
+                width: 58.33%;
+            }
+
+            .col-s-8 {
+                width: 66.66%;
+            }
+
+            .col-s-9 {
+                width: 75%;
+            }
+
+            .col-s-10 {
+                width: 83.33%;
+            }
+
+            .col-s-11 {
+                width: 91.66%;
+            }
+
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+
+        .header {
+            background-color: #4729ab;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #5016ad;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        .menu li:hover {
+            background-color: #e6dbff;
+            color: #5016ad;
+        }
+
+        .menu .active li {
+            background-color: #e6dbff;
+            color: #5016ad;
+        }
+
+        .menu a {
+            text-decoration: none;
+        }
+
+        .aside {
+            background-color: #4e33e5;
+            padding: 15px;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        .footer {
+            background-color: #0063cc;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Portfólió</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <p>11. évfolyam</p>
+            <ul>
+                <a class="active" href="../web/alap.html">
+                    <li>Projekt 01: Astabil multivibrátor</li>
+                </a>
+                <a href="../web/rezgokor.html">
+                    <li>Projekt 02: Rezgőkör</li>
+                </a>
+                <a href="#link ide">
+                    <li>Projekt 03</li>
+                </a>
+                <a href="#link ide">
+                    <li>Projekt 04</li>
+                </a>
+            </ul>
+            <p>12. évfolyam</p>
+            <ul>
+                <a href="">
+                    <li>Projekt 01</li>
+                </a>
+                <a href="">
+                    <li>Projekt 02</li>
+                </a>
+                <a href="">
+                    <li>Projekt 03</li>
+                </a>
+            </ul>
+            <p>13. évfolyam</p>
+            <ul>
+                <a href="">
+                    <li>Projekt 01</li>
+                </a>
+                <a href="">
+                    <li>Projekt 02</li>
+                </a>
+                <a href="">
+                    <li>Projekt 03</li>
+                </a>
+            </ul>
+            <p>----------------</p>
+            <ul>
+                <a href="alap.html">
+                    <li>VISSZA</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>Astabil multivibrátor</h1>
+            <p>Az astabil multivibrátorok általában bemenettel nem rendelkező billenőkörök. A kimeneteik állapotán általában vagy 0 vagy 1-es szint között folyamatosan billeg. (egyik állapot sem stabil.)</p>
+            <p>Kimenetük azonban, egy előre meghatározott ideig tartózkodhat az egyik, aztán a másik állapotban.</p>
+            <p>Az ezt rajzoló jel így általában négyszöghullám jellegű.</p>
+
+
+
+
+            <h2>Műszaki adatok:</h2>
+            
+
+
+            <ul>
+                <li>BC639 tranzisztor</li>
+                <li>Kék led</li>
+                <li>Piros led</li>
+                <li>680 ohm ellenállás</li>
+                <li>30 Kohm ellenállás</li>
+                <li>Kondenzátor</li>
+
+                <img style="height: 500px; width: 500px;" src="../img/Astabil multivibrátor/IMG_6435.jpeg" alt="alkatrészek">
+            </ul>
+
+            <p>Az összeszereléshez szükséges még:</p>
+            <ul>
+                <li>oldalcsípő fogó,</li>
+                <li>breadbord.</li>
+
+            </ul>
+
+            
+
+            <h2>A multivibrátor kész állapotban:</h2>
+            
+            <img style="height: 500px; width: 500px;" src="../img/Astabil multivibrátor/IMG_6436.jpeg" alt="kész">
+            <img style="height: 500px; width: 500px;" src="../img/Astabil multivibrátor/IMG_6438.jpeg" alt="kész">
+            <img style="height: 500px; width: 500px;" src="../img/Astabil multivibrátor/IMG_6439.jpeg" alt="kész">
+        
+
+
+            <h2>Összegzés, tapasztalatok:</h2>
+            <p>Először építettem meg egy valós áramkört, szóval sok nehézséget okozott. Idegen volt az alkatrészek lábának hajlítása, féltem hogy eltöröm a lábait.</p>
+            <p>A kapcsolási rajzot nemigazán értettem, így hol "vakon" hol pedig tanári segítséggel haladtam (több, kevesebb sikerrel). A legnagyobb problémát viszont a tranzisztor lábai jelentették, az Emitter a Collector és a Bázis.</p>
+            <p>Ám végül sikerült világításra bírni a két ledet, sikerült jól összerakni az áramkört.</p>
+    
+
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>Milyen fajtái vannak a "Multivibrátor"oknak?</h2>
+                <p>Astabil, monostabil, bistabil.</p>
+                <h2>Hol használnak ilyeneket?</h2>
+                <p>Közlekedési lámpáknál.</p>
+                <p>Villanykapcsoló.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Készítette: Mercz Noel</p>
+        <p>A projekt megvalósult: 2022.09.26.</p>
+        <p>Helyszín: Miskolci Szakképzési Centrum Kandó Kálmán Informatikai Technikum (Villamos 3 labor).</p>
+
+    </div>
+
+</body>
+
+</html>
